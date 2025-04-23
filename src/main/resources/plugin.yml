@@ -1,0 +1,3 @@
+name: ThePitLite
+version: '${version}'
+main: com.mc.gaul.thepitcore.ThePitLite
