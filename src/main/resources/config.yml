@@ -1,0 +1,68 @@
+
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+mysql:
+  enable: false
+  id: "root"
+  pw: "root"
+  ip: "localhost"
+  port: "3306"
+
+bungee: false
+
+options:
+  game:
+    auto-join: false
+    auto-respawn: true
+    lobby:
+
+signs:
+  lines:
+    - "&8[&6&lThePit&8]"
+    - "Map: &8[&6%arena%&8]"
+    - "Players: &8[&6%current%&7/&6%max%&8]"
+    - "Join: &8[&6Click Here&8]"
+
+actionbar:
+  hearts:
+    format: "&7%player% %hearts%"
+    remain-hearts-color: "&4"
+    lose-hearts-color: "&0"
+  kill:
+    format: "&7%player% &a&lKILL!"
+
+
+scoreboard:
+  game:
+    update-time: 1
+    title: "&e&lLite The Pit"
+    rows:
+      - "&7%date%"
+      - "&e&l"
+      - "Level: &7[&3%lvl%&7]"
+      - "Needed XP: &b%xp%"
+      - "&e&e&l"
+      - "Gold: &6%gold%g"
+      - "&e&e&e&l"
+      - "Status: %status%"
+      - "&e&e&e&e&l"
+      - "&emc.example.net"
+  lobby:
+    update-time: 1
+    title: "&e&lLite The Pit"
+    rows:
+      - "&7%date%"
+      - "&7&l"
+      - "&lNAME: &7%name%"
+      - "&e&e"
+      - "&eOnline: &b%count%"
+      - "&e&e&e"
+      - "&b&nwww.builtbybit.com"

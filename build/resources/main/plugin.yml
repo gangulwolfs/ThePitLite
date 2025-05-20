@@ -1,0 +1,12 @@
+name: ThePitLite
+version: '0.0.1-ALPHA'
+main: com.mc.gaul.thepitcore.ThePitLite
+api-version: 1.16
+depend: [ DecentHolograms, Citizens ]
+
+commands:
+  thepit:
+    aliases:
+      - 더핏
+      - 더피트
+    description: "Main command."

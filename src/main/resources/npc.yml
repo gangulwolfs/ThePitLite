@@ -1,0 +1,24 @@
+#
+#
+#
+#
+
+play:
+  text1: "&e&lCLICK TO PLAY"
+  text2: "&eThe pit &7[%ver%]"
+  text3: "&e%count% Playing"
+quest:
+  text1: "&7Quests & Contracts"
+  text2: "&b&lQuests Masters"
+stats:
+  text1: "&7View your stats"
+  text2: "&2&lStats"
+upgrade:
+  text1: "&7permanent"
+  text2: "&a&lUPGRADES"
+items:
+  text1: "&7Non-permanent"
+  text2: "&6&lITEMS"
+prestige:
+  text1: "&7Resets & Renown"
+  text2: "&e&lPRESITIGE"
